@@ -1,11 +1,10 @@
-function optionChanged(newSample) {
-  buildMetadata(newSample);
-  // buildCharts(newSample);
-}
+// Load sample 940 at the begining
+buildMetadata("940");
+
 
 function optionChanged(newSample) {
   buildMetadata(newSample);
-  //buildCharts(newSample);
+  // buildCharts(newSample);
 }
 
 function buildMetadata(sample) {
@@ -15,7 +14,12 @@ function buildMetadata(sample) {
     var result = resultArray[0];
     var PANEL = d3.select("#sample-metadata");
 
-    PANEL.html("");
+  
+    
+  PANEL.html("");
+
+  console.log("++++++++++++++++++++++ Greg make a Fat Arrow Loop starting here +++++++++++++++++++++++");
+
     ageText = "age:".toUpperCase().concat(result.age)
     bbtypeText = "bbtype:".toUpperCase().concat(result.bbtype)
     ethnicityText = "ethnicity:".toUpperCase().concat(result.ethnicity)
@@ -31,6 +35,8 @@ function buildMetadata(sample) {
     PANEL.append("h6").text(locationText);
     PANEL.append("h6").text(bbtypeText);
     PANEL.append("h6").text(wfreqText);
+
+  console.log("+++++++++++++++++++++ Greg make a Fat Arrow Loop ending here +++++++++++++++++++++++");
     
   });
 }
