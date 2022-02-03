@@ -1,0 +1,10 @@
+body {
+
+    color: #080808;
+}
+
+.jumbotron {
+    background-image: url("../images/bacterias-5545353.png");
+    background-size: 100% 100%;
+    text-align: center;
+}
