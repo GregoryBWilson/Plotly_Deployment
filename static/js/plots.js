@@ -115,6 +115,7 @@ function buildCharts(sample) {
       type: 'bar',
       x: sample_valuesResult.slice(0,10).reverse(),
       y: yticks.reverse(),
+      text: otu_labelsResult,
       // text: yticks,
       name: "Greg",
       type: "bar",
