@@ -132,7 +132,7 @@ function buildCharts(sample) {
       l: 100,
       r: 100,
       t: 100,
-      b: 100
+      b: 50
     }
     }
     console.log(`barLayout`,barLayout)
