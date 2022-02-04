@@ -10,7 +10,7 @@ The Belly Button Biodiversity Dashboard, shown in figure 1 below, was captured f
 
 https://gregorybwilson.github.io/Plotly_Deployment/
 
-When the dashboard is first opened in a browser, ID 940’s data is displayed and all three charts work according to the requirements.  When another sample is selected from the dropdown menu, the webpage loads, the bar, bubble and gauge charts initialize and are update to the new samples data.
+When the dashboard is first opened in a browser, ID 940’s data is displayed and all three charts work according to the requirements.  When another sample is selected from the dropdown menu, the webpage loads, the bar, bubble and gauge charts initialize and are updated to the new samples data.
 
 
 
@@ -26,7 +26,7 @@ The dashboard has been customized in the following ways:
   - Modification of the panel text
   - Modification of the bar chart title
   - Modification of the bubble chart title
-- More information about the project has been to the page which also changed the layout by adding an overview section just under the jumbotron
+- More information about the project has been added to the page which also changed the layout by adding an overview section just under the jumbotron
 - Each graph now has a descriptive section either above or below it to explain the graphics
 
 A description of each graph can be found in the following sections.
@@ -44,7 +44,7 @@ A JavaScript file plots.js was written that:
   - Y values that are the otu_ids sorted in descending order
   - X values that are the sample_values also in descending order
   - The hover text been been assigned as the otu_labels, again in in descending order.
-- Creates the layout array in the buildCharts function that creates a title for the chart , I also added bold font the the title
+- Creates the layout array in the buildCharts function that creates a title for the chart , I also added bold font to the title
 - When the dashboard first opens in a browser, ID 940’s data is displayed and the bar chart has the following: 
 
   - The top 10 sample_values are sorted and displayed in descending order
@@ -106,4 +106,4 @@ As with the bar and bubble chart the gauge chart is working according to the req
 
 ### 3 Summary
 
-All three charts are working according to their requirements when a sample is selected from the dropdown menu.  When the webpage loads, the bar, bubble chart and gauge charts initialize without error showing data for the first sample and update correctly when a new sample is selected.  The dashboard has been updated with formatting and images to improve its appearances and lots of text has been added to help users understand the purpose and operation of the website. I am optimistic that Roza and her volunteers will be very happy with their new dashboard and that Improbable Beef will be successful in their quest to create synthetic beef from bacteria.
+All three charts are working according to their requirements when a sample is selected from the dropdown menu.  When the webpage loads, the bar, bubble chart and gauge charts initialize without error showing data for the first sample and update correctly when a new sample is selected.  The dashboard has been updated with formatting and images to improve its appearance and lots of text has been added to help users understand the purpose and operation of the website. I am optimistic that Roza and her volunteers will be very happy with their new dashboard and that Improbable Beef will be successful in their quest to create synthetic beef from bacteria.
